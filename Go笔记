@@ -1,0 +1,44 @@
+**常用快捷键**
+1. 行注释 ctrl +/
+2. 块注释 shift+alt+a （可以修改为ctrl+shift+/）
+3. ctrl+a 全选
+4. ctrl+c 复制
+5. ctrl+v 粘贴
+6. ctrl+shift+k 删除行
+7. ctrl+e查找文件
+8. ctrl+shift+p打开设置命令行
+
+**快速生成代码片段**
+pkgm main包+main主函数
+ff fmt.Printf("", var)
+for for i := θ; i < count; i++ {}
+forr for _, v := range v {}
+fmain func main() {}
+a.print! fmt.Printf("a: %v\n", a)
+
+**golang标识符、关键字、命名规则**
+标识符
+标识符的英文是 identifier，通俗的讲！就是给变量、常量、函数、方法、给构体、数组、切片、接口起名字。
+标识符的组成
+1. 标识符由数字、字母和下划线(一)组成。
+2. 只能以字母和下划线()开头。
+3. 标识符区分大小写。
+
+**go语言关键字**
+go语言提供了25个关键字，如下所示
+break        default         func         interface       select    
+case         defer           go           map             struct
+chan         else            goto         package         switch    
+const        fallthrough     if           range           type
+continue     for             import       return          var
+除了以上介绍的这些关键字,Go语言还有36个预定义标识符,其中包含了基本类型的名称和一些基本的内置函数，见下表：
+append        bool          byte        cap         close       complex     complex64     complex128   uint16 
+copy          false         float32     float64     imag        int         int8          int16        uint32 
+int32         int64         iota        len         make        new         nil           panic        uint64    
+print         printin       real        recoven     string      true        uint          uint8        uintptr
+
+
+**var 声明变量能放在全局，而:=声明变量只能放在函数里**
+**iota 比较特殊，可以被认为是一个可被编译器修改的常量，它默认开始值是0，每调用一次加 1.遇到 const 关键字时被重置为 0**
+
+
